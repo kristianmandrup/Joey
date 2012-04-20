@@ -4,3 +4,4 @@ doc
 Manifest
 tmp
 *.gem
+.DS_Store

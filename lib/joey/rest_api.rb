@@ -1,6 +1,10 @@
+require 'joey/parser_helpers'
+
 module Joey
   module RestAPI
-    include ParserHelpers
+
+    include JoeyParserHelpers
+
     class UnrecognizeableClassError < Exception; end
 
     def self.included(base)

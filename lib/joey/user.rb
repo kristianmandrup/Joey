@@ -1,6 +1,8 @@
+require 'joey/parser_helpers'
+
 module Joey
   class User < Profile
-    include ParserHelpers
+    include Joey::ParserHelpers
 
     define_properties :first_name, :last_name, :middle_name, :link, :about, :about_me, :birthday, :gender,
       :email, :website, :timezone, :updated_time, :verified, :religion, :political
