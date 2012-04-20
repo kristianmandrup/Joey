@@ -1,3 +1,5 @@
+require 'joey/model'
+
 module Joey
   class Profile < Model
     define_properties :id, :name

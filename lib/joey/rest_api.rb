@@ -3,7 +3,7 @@ require 'joey/parser_helpers'
 module Joey
   module RestAPI
 
-    include JoeyParserHelpers
+    include Joey::ParserHelpers
 
     class UnrecognizeableClassError < Exception; end
 
