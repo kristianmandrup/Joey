@@ -1,4 +1,6 @@
-## Joey
+## FB Joy
+
+FB Joy is Joey with a few fixes added.
 
 Joey(<a href="http://github.com/waseem/joey">http://github.com/waseem/joey</a>) provides object wrappers for nodes in the Facebook OpenGraph. It also provides wrappers for the data returned from facebook REST api. This gem depends upon Koala(<a href="http://github.com/arsduo/koala">http://github.com/arsduo/koala</a>).
 

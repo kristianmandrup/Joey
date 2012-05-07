@@ -4,12 +4,12 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = "joey"
+  s.name = "fb_joy"
   s.version = "0.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Waseem Ahmad"]
-  s.date = "2012-04-20"
+  s.date = "2012-05-07"
   s.description = "Object wrappers for nodes in the Facebook OpenGraph"
   s.email = "talk.to.waseem@gmail.com"
   s.extra_rdoc_files = [
@@ -17,9 +17,13 @@ Gem::Specification.new do |s|
     "README.md"
   ]
   s.files = [
+    "Gemfile",
+    "Gemfile.lock",
+    "LICENSE",
     "README.md",
     "Rakefile",
-    "lib/joey.rb",
+    "VERSION",
+    "joey.gemspec",
     "lib/joey/action.rb",
     "lib/joey/affiliation.rb",
     "lib/joey/album.rb",
@@ -53,7 +57,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/kristianmandrup/joey"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.22"
+  s.rubygems_version = "1.8.24"
   s.summary = "Ruby Wrapper API for Facebook OpenGraph"
 
   if s.respond_to? :specification_version then
